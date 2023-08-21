@@ -1,0 +1,225 @@
+.div-home{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  .div-h1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1{
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  #mat-tap{
+      background-color: #b8b8b88f;
+      border-radius: 5px;
+      width: 100%;
+      height: 400px;
+      .img-first{
+        height: 100%;
+        width: 100%;
+      }
+      .img-second{
+        height: 100%;
+        width: 100%;  
+      }
+      .img-third{
+        height: 100%;
+        width: 100%;
+      }
+  }
+  .div-off{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      // background-color: blue;
+      width: 90%;
+      gap: 30px;
+      .p-matn-off{
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+      }
+      .p-darsad-off{
+        font-size: 50px;
+        color: red;
+      }
+  }
+  #section-flex-item{
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      .div-first{
+          // background-color: red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          .div-shoes-item{
+            // background-color: blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px black;
+            border-radius: 5px;
+            .img-first{
+              height: 300px;
+              width: 300px;
+            }
+            .p-name-shoes{
+              font-size: 17px;
+              font-weight: bold;
+              align-self: flex-start;
+              margin-left: 10px;
+            }
+            .p-price-shoes{
+              font-size: 15px;
+              align-self: flex-start;
+              margin-left: 10px;
+            }
+            .p-off{
+              color: red;
+              font-size: 15px;
+              align-self: flex-start;
+              margin-left: 10px;
+              font-weight: bold;
+            }
+          }
+      }
+      .div-second{
+        // background-color: blue;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .div-shoes-item{
+          // background-color: blue;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0 0 10px black;
+          border-radius: 5px;
+          .img-second{
+            height: 300px;
+            width: 300px;
+          }
+          .p-name-shoes{
+            font-size: 17px;
+            font-weight: bold;
+            align-self: flex-start;
+            margin-left: 10px;
+            margin-top: 20px;
+          }
+          .p-price-shoes{
+            font-size: 15px;
+            align-self: flex-start;
+            margin-left: 10px;
+          }
+          .p-off{
+            color: red;
+            font-size: 15px;
+            align-self: flex-start;
+            margin-left: 10px;
+            font-weight: bold;
+          }
+        }
+      }
+  }
+  .div-click-btn{
+      // background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      width: 90%;
+      margin-bottom: 50px;
+      p{
+        font-size: 20px;
+        color: red;
+      }
+      button{
+        height: 40px;
+        width: 100px;
+        border: none;
+        border-radius: 5px;
+        background-color: red;
+        color: #fff;
+        box-shadow: 0 0 10px black;
+        transition: 0.25s;
+      }
+      button:hover{
+        cursor: pointer;
+        transition: 0.25s;
+        transform: scale(1.1);
+      }
+  }
+}
+
+@media (min-width:425px) {
+  .div-home{
+    .div-h1{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+@media (min-width:768px) {
+  .div-home{
+    #mat-tap{
+      width: 70%;
+    }
+    .div-off{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+    }
+    #section-flex-item{
+      .div-first{
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 30px;
+      }
+      .div-second{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+    }
+    .div-click-btn{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+}
+@media (min-width:1024px) {
+  .div-home{
+    #mat-tap{
+      width: 50%;
+    }
+  }
+}

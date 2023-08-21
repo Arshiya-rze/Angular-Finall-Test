@@ -1,0 +1,110 @@
+#section-contact-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    // background-color: yellow;
+    width: 50%;
+    margin-left: 25%;  
+    .div-first{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        // background-color: red;
+        margin-top: 40px;
+        h1{
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+        }
+    }
+    .div-seccond{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        // background-color: red;
+        margin-left: 50px;
+        .p-contact{
+            font-size: 25px;
+            color: rgb(92, 0, 128);
+            font-weight: bold;
+        }
+        .p-matn{
+            font-size: 17px;
+            color: black;
+        }
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding: 30px;
+        box-shadow: 0 0 5px rgb(92, 0, 128);
+        border-radius: 5px;
+        #btn-contact{
+            align-self: flex-end;
+            height: 40px;
+            width: 120px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: rgb(92, 0, 128);
+            border: 1px solid rgb(92, 0, 128);
+            box-shadow: 0 0 5px rgb(92, 0, 128);
+            font-weight: bold;
+            margin-top: 40px;
+        }
+        #btn-contact:hover{
+            cursor: pointer;
+        }
+    }
+    .a-email{
+        font-size: 14px;
+        color: red;
+        font-weight: bold;
+        align-self: center;
+    }
+    .div-address-email{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 50px;
+        // background-color: blue;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        .p-email{
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+        }
+        .a-email{
+            color: rgb(92, 0, 128);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .p-address1{
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .p-address2{
+            color: rgb(92, 0, 128);
+            font-weight: 500;
+        }
+        .p-social{
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .div-icon-social{
+            background-color: yellow;
+            height: 70px;
+            width: 250px;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+#section-about-item{
+    height:76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    h1{
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    .div-about-abit{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        .p-about{
+            align-self: flex-start;
+            font-size: 17px;
+            color: red;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+    }
+    .p-matn-about{
+        font-size: 15px;
+        color: black;
+        line-height: 25px;
+        width: 90%;
+    }
+    .example-full-width{
+        margin-top: 50px;
+    }
+    #btn-send{
+        height: 50px;
+        width: 200px;
+        border: none;
+        background-color: purple;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 17px;
+    }
+    .div-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        width: 90%;
+        gap: 20px;
+        .p-profile{
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        }
+        #btn-off{
+            height: 50px;
+            width: 150px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgba(128, 0, 128, 0.205);
+            font-size: 17px;
+            color: black;
+        }
+        #btn-off:hover{
+            cursor: pointer;
+        }
+    }
+}
+    

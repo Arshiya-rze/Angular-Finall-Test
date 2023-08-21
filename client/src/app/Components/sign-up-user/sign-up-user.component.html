@@ -1,0 +1,55 @@
+<div class="div-h1">
+    <h1>SignUp Your Account</h1>
+</div>
+<form [formGroup]="signUpFg" id="form-input">
+        <mat-form-field color="primary">
+            <mat-label>National Code</mat-label>
+            <input type="text" formControlName="nationalCodeCtrl" placeholder="Enter your code" matInput>
+            <mat-hint>10 digits only.</mat-hint>
+            <mat-error>This field is required.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field color="primary">
+            <mat-label>First Name</mat-label>
+            <input type="text" formControlName="firstNameCtrl" placeholder="Enter your name" matInput>
+            <mat-hint>enter your first name</mat-hint>
+            <mat-error>This field is required.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field color="primary">
+            <mat-label>Last Name</mat-label>
+            <input type="text" formControlName="lastNameCtrl" placeholder="Enter your last-name" matInput>
+            <mat-hint>enter your last name</mat-hint>
+            <mat-error>This field is required.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field color="primary">
+            <mat-label>Age</mat-label>
+            <input type="number" formControlName="ageCtrl" placeholder="Enter your age" matInput>
+            <mat-hint>Enter between 18 to 99.</mat-hint>
+            <mat-error>This field is required</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Wich one you like?</mat-label>
+            <mat-select formControlName="shoeCtrl">
+                <mat-option *ngFor="let shoe of shoes" [value]="shoe">
+                    {{shoe}}
+                </mat-option>
+            </mat-select>
+            <mat-error>This field is required.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field color="primary">
+            <mat-label>Email</mat-label>
+            <input type="email" formControlName="emailCtrl"  placeholder="Enter your email" matInput>
+            <mat-hint>enter your email address</mat-hint>
+            <mat-error>This field is required.</mat-error>
+        </mat-form-field>
+</form>
+<div class="div-btn">
+    <button (click)="registerSignUp()" id="btn-done">
+        Sign Up
+    </button> 
+    <h2>{{signUpFg.value | json}}</h2>
+</div>

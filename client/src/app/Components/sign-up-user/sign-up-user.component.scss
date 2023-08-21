@@ -1,0 +1,42 @@
+.div-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    h1{
+        color: black;
+    }
+}
+#form-input{
+    // background-color: red;
+    // height: 80vh;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 9px;
+    .mat-form{
+        background-color: red;
+    }
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    #btn-done{
+        height: 40px;
+        width: 130px;
+        background-color: rgb(142, 38, 173);
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+    #btn-done:hover{
+        cursor: pointer;
+    }
+}

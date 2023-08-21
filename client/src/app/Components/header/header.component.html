@@ -1,0 +1,28 @@
+<header>
+  <mat-toolbar mat-rased-toolbal color="primary">
+    <button mat-button [matMenuTriggerFor]="belowMenu"><mat-icon>menu</mat-icon></button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button [routerLink]="['']" mat-menu-item>Home</button>
+      <button [routerLink]="['/about']" mat-menu-item>About</button>
+      <button [routerLink]="['/product']" mat-menu-item>Product</button>
+      <button [routerLink]="['/service']" mat-menu-item>Service</button>
+      <button [routerLink]="['/contact-with-us']" mat-menu-item>Contact With Us</button>
+    </mat-menu>
+
+    <a class="tag-a" routerLink="">Arshiya Project</a>
+
+    <div class="div-menu-item">
+      <a href="#" routerLink="/about">About</a>
+      <a href="#" routerLink="/product">Product</a>
+      <a href="#" routerLink="/servis">Service</a>
+      <a href="#" routerLink="/contact-with-us">Contact With Us</a>
+    </div>
+
+    <span class="example-spacer"></span>
+    <button id="btn-login" routerLink="login">Login</button>
+    <button id="btn-sign-up" routerLink="sign-up-user">Sign up</button>
+    <button id="btn-icon" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+  </mat-toolbar>
+</header>

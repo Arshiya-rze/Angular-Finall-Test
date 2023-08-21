@@ -1,0 +1,111 @@
+#section-servic {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 80.5vh;
+}
+#section-servic h1 {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-first {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-first .div-shoping {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-first .div-shoping .btn-shoping {
+  background-color: rgba(128, 128, 128, 0.24);
+  height: 70px;
+  width: 250px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-first .div-shoping .btn-shoping .img {
+  height: 50px;
+  width: 50px;
+}
+#section-servic .div-first .div-shoping p {
+  font-size: 17px;
+  color: black;
+}
+#section-servic .div-seccond {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-seccond .div-shoping {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-seccond .div-shoping .btn-shoping {
+  background-color: rgba(128, 128, 128, 0.24);
+  height: 70px;
+  width: 250px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-seccond .div-shoping .btn-shoping .img {
+  height: 50px;
+  width: 50px;
+}
+#section-servic .div-seccond .div-shoping .btn-shoping p {
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#section-servic .div-seccond .div-shoping p {
+  font-size: 17px;
+  color: black;
+}
+#section-servic .div-third {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-third .div-shoping {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-third .div-shoping .btn-shoping {
+  background-color: rgba(128, 128, 128, 0.24);
+  height: 70px;
+  width: 250px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-servic .div-third .div-shoping .btn-shoping .img {
+  height: 50px;
+  width: 50px;
+}
+#section-servic .div-third .div-shoping p {
+  font-size: 17px;
+  color: black;
+}/*# sourceMappingURL=servis.component.css.map */

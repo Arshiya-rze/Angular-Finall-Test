@@ -1,0 +1,51 @@
+#section-not-found-item {
+  height: 80.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section-not-found-item .div-main-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#section-not-found-item .div-main-item .p-404 {
+  color: rgb(0, 0, 136);
+  font-weight: 900;
+}
+#section-not-found-item .div-main-item h1 {
+  font-weight: bold;
+  color: black;
+  font-size: 40px;
+}
+#section-not-found-item .div-main-item .div-btn {
+  display: flex;
+  gap: 10px;
+}
+#section-not-found-item .div-main-item .div-btn #btn-home {
+  background-color: rgb(0, 0, 136);
+  border: none;
+  color: #fff;
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#section-not-found-item .div-main-item .div-btn #btn-home:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#section-not-found-item .div-main-item .div-btn #btn-support {
+  background-color: #fff;
+  border: none;
+  color: black;
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+}
+#section-not-found-item .div-main-item .div-btn #btn-support {
+  cursor: not-allowed;
+}/*# sourceMappingURL=not-found.component.css.map */

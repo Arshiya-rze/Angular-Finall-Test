@@ -1,0 +1,15 @@
+header .example-spacer {
+  flex: 1 1 auto;
+}
+header .div-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  gap: 15px;
+}
+header .div-menu-item a {
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=header.component.css.map */

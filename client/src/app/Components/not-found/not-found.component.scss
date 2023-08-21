@@ -1,0 +1,53 @@
+#section-not-found-item{
+    // background-color: red;
+    height: 80.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .div-main-item{
+        // background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .p-404{
+            color:  rgb(0, 0, 136);
+            font-weight: 900;
+        }
+        h1{
+            font-weight: bold;
+            color: black;
+            font-size: 40px;
+        }
+        .div-btn{
+            display: flex;
+            gap: 10px;
+            #btn-home{
+                background-color: rgb(0, 0, 136);
+                border: none;
+                color: #fff;
+                height: 35px;
+                width: 120px;
+                border-radius: 5px;
+                transition: 0.5s;
+            }
+            #btn-home:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+            #btn-support{
+                background-color: #fff;
+                border: none;
+                color: black;
+                height: 35px;
+                width: 120px;
+                border-radius: 5px;
+            }
+            #btn-support{
+                cursor: not-allowed;
+            }
+        }
+    }
+}

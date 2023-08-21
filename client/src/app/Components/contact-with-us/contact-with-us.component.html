@@ -1,0 +1,49 @@
+<section id="section-contact-one">
+    <div class="div-first">
+        <h1>Contact</h1>
+    </div>
+    <div class="div-seccond">
+        <p class="p-contact">Contact With Us</p>
+        <p class="p-matn">
+            if you wana send massage for us
+            you can complete this field  
+        </p>
+    </div>
+
+    <form id="form">
+        <mat-form-field color="primary">
+            <mat-label>Name</mat-label>
+            <input type="text" placeholder="Enter your name" matInput>
+            <mat-error>This field is required.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Enter your email</mat-label>
+            <input matInput placeholder="pat@example.com" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Textarea</mat-label>
+            <textarea matInput></textarea>
+        </mat-form-field>
+        
+        <button id="btn-contact">Send</button>
+    </form>
+
+    <a class="a-email" href="#">send me email directory!</a>
+
+    <div class="div-address-email">
+        <p class="p-email">Email</p>
+        <a class="a-email" href="#">83arshiarezaie83@gmail.com</a>
+        <p class="p-address1">Address</p>
+        <p class="p-address2">Iran, Karaj azadegan ardalan4</p>
+        <p class="p-social">Social</p>
+        <div class="div-icon-social">
+
+        </div>
+
+    </div>
+
+
+</section>

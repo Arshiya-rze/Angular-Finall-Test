@@ -1,0 +1,157 @@
+#section-servic{
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: black;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .div-first{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .div-shoping{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            .btn-shoping{
+                background-color: rgba(128, 128, 128, 0.24);
+                height: 70px;
+                width: 250px;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.25s;
+                .img{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            .btn-shoping:hover{
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: 0.25s;
+            }
+            p{
+                font-size: 17px;
+                // font-weight: bold;
+                color: black;
+            }
+        }
+    }
+    .div-seccond{
+        display: flex;
+        gap: 10px;
+        // background-color: blue;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .div-shoping{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            .btn-shoping{
+                background-color: rgba(128, 128, 128, 0.24);
+                height: 70px;
+                width: 250px;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.25s;
+                .img{
+                    height: 50px;
+                    width: 50px;
+                }
+                p{
+                    font-size: 20px;
+                    color: black;
+                    margin-top: 10px;
+                    font-weight: bold;
+                }
+            }
+            .btn-shoping:hover{
+                transform: scale(1.1);
+                transition: 0.25s;
+                cursor: pointer;
+            }
+            p{
+                font-size: 17px;
+                // font-weight: bold;
+                color: black;
+            }
+        }
+    }
+    .div-third{
+        display: flex;
+        gap: 10px;
+        // background-color: blue;
+        justify-content: center;
+        align-items: center;
+        .div-shoping{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            .btn-shoping{
+                background-color: rgba(128, 128, 128, 0.24);
+                height: 70px;
+                width: 250px;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.25s;
+                .img{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+            .btn-shoping:hover{
+                transform: scale(1.1);
+                transition: 0.25s;
+                cursor: pointer;
+            }
+            p{
+                font-size: 17px;
+                // font-weight: bold;
+                color: black;
+            }
+        }
+    }
+}
+
+@media (min-width:768px) {
+    #section-servic{
+        .div-first{
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .div-seccond{
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+}
+@media (min-width:1024px) {
+    #section-servic{
+        height: 80.5vh;
+    }
+}
