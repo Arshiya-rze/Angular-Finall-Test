@@ -46,6 +46,7 @@ export class RegisterAdminComponent {
           this.globAdminRegister = res;
         }
       }
+       
     )
   }
 }
