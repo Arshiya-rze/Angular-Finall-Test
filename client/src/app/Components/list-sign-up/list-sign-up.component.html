@@ -1,0 +1,14 @@
+<div class="buttons">
+    <button (click)="showListSignUp()" mat-raised-button color="primary">
+        Show Presidents
+    </button>
+</div>
+
+<div *ngIf="listSignUp">
+    <ul *ngFor="let newSignUp listSignUp">
+        <li>Id: {{newSignUp.id}}</li>
+        <li>NationalCode {{newSignUp.nationalCode}}</li>
+        <li>Name: {{newSignUp.name}}</li>
+        <li *ngIf="newSignUp.email">Email: {{newSignUp.email}}</li>
+    </ul>
+</div>

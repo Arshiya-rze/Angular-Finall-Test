@@ -45,15 +45,4 @@ public class SignUpController : ControllerBase
 
         return newUser;
     }
-
-    // [HttpGet("get-all")]
-    // public ActionResult<IEnumerable<SignUp>> GetAll()
-    // {
-    //     List<SignUp> signUp = _collection.Find<SignUp>(new BsonDocument()).ToList();
-
-    //     if(!signUp.Any())
-    //         return NoContent();
-
-    //     return signUp;
-    // }
 }

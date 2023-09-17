@@ -1,0 +1,31 @@
+<form [formGroup]="newSignUpFg"  id="form-input">
+    <mat-form-field color="primary">
+        <mat-label>National Code</mat-label>
+        <input type="text" formControlName="nationalCodeCtrl" placeholder="Enter your code" matInput>
+        <mat-hint>10 digits only.</mat-hint>
+        <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field color="primary">
+        <mat-label>Name</mat-label>
+        <input type="text" formControlName="nameCtrl" placeholder="Enter your name" matInput>
+        <mat-hint>enter your first name</mat-hint>
+        <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field color="primary">
+        <mat-label>Email</mat-label>
+        <input type="email" formControlName="emailCtrl"  placeholder="Enter your email" matInput>
+        <mat-hint>enter your email address</mat-hint>
+        <mat-error>This field is required.</mat-error>
+    </mat-form-field>
+</form>
+
+<div class="div-btn">
+    <button (click)="registerNewSignUp()" id="btn-done">
+        NewSignUp
+    </button> 
+    <h2>{{newSignUpFg.value | json}}</h2>
+</div>
+
+<app-task></app-task>

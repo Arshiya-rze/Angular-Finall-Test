@@ -36,6 +36,9 @@ import { SignUpUserComponent } from './Components/sign-up-user/sign-up-user.comp
 import { RegisterAdminComponent } from './Components/register-admin/register-admin.component';
 import { LoginComponent } from './Components/login/login.component';
 import { ContactWithUsComponent } from './Components/contact-with-us/contact-with-us.component';
+import { NewTestComponent } from './Components/new-test/new-test.component';
+import { TaskComponent } from './Components/task/task.component';
+import { ListSignUpComponent } from './Components/list-sign-up/list-sign-up.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +56,10 @@ import { ContactWithUsComponent } from './Components/contact-with-us/contact-wit
     SignUpUserComponent,
     RegisterAdminComponent,
     LoginComponent,
-    ContactWithUsComponent
+    ContactWithUsComponent,
+    NewTestComponent,
+    TaskComponent,
+    ListSignUpComponent
   ],
   imports: [
     BrowserModule,

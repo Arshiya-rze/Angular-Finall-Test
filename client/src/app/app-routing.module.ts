@@ -13,6 +13,8 @@ import { SignUpUserComponent } from './Components/sign-up-user/sign-up-user.comp
 import { RegisterAdminComponent } from './Components/register-admin/register-admin.component';
 import { LoginComponent } from './Components/login/login.component';
 import { ContactWithUsComponent } from './Components/contact-with-us/contact-with-us.component';
+import { NewTestComponent } from './Components/new-test/new-test.component';
+import { ListSignUpComponent } from './Components/list-sign-up/list-sign-up.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -25,6 +27,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'admin', component: AdminComponent},
   { path: 'register-admin', component: RegisterAdminComponent},
+  { path: 'new-test', component: NewTestComponent},
+  { path: 'list-sign-up', component: ListSignUpComponent},
   { path: '**', component: NotFoundComponent, pathMatch: 'full' }
 ];
 

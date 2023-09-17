@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\angular material\\myApp\\api\\api.csproj": {}
+    "D:\\full desktop\\angular material\\myApp\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\angular material\\myApp\\api\\api.csproj": {
+    "D:\\full desktop\\angular material\\myApp\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\angular material\\myApp\\api\\api.csproj",
+        "projectUniqueName": "D:\\full desktop\\angular material\\myApp\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\angular material\\myApp\\api\\api.csproj",
+        "projectPath": "D:\\full desktop\\angular material\\myApp\\api\\api.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\angular material\\myApp\\api\\obj\\",
+        "outputPath": "D:\\full desktop\\angular material\\myApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

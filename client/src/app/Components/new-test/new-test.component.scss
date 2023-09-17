@@ -1,0 +1,27 @@
+#form-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.div-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    #btn-done{
+        height: 40px;
+        width: 150px;
+        border: none;
+        background-color: rgb(85, 2, 85);
+        border-radius: 5px;
+        color: #fff;
+        font-size: 17px;
+    }
+    #btn-done:hover{
+        cursor: pointer;
+    }
+}

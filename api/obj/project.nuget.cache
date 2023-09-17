@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kqw2iWUTDbkcDckjjiAqsC7xeqvRAVtxWLoXY2TTjuuuuer6hc7EEhRcrrRuN0E1n+bMLSL7hD9MhSBbxbvW2g==",
+  "dgSpecHash": "5knlN5rQB8VSxzfbEcIBtn8UG9KwIDWdF1hwpXcI33JpTIGsg+zersE4mNHq/DVWvglK1/gAjpH2uBdOpPsrdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\angular material\\myApp\\api\\api.csproj",
+  "projectFilePath": "D:\\full desktop\\angular material\\myApp\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
